@@ -8,6 +8,7 @@ int main()
     /*
     I am new c++ learner..Now I want to try practise with simple c++ language code.
     */
+
     std::cout << "I am learning c++!" << std::endl;
     std::cout << "For giving one code there is looking problem!" << '\n';
     std::cout << "So now i am giving two more code for try to solving or remove problem!" << std::endl;
