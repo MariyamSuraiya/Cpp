@@ -33,5 +33,17 @@ int main()
     std::cout << "<";
     std::cout << Days;
 
+    std::cout << "Decimal" << '\n';
+
+    /*
+    If I wanna see decimal number in my output,,,then I've to give double before variable numbers...Like this....
+    */
+
+    double price = 50.50;
+    double number = 7.8;
+
+    std::cout << price << '\n';
+    std::cout << number << '\n';
+
     return 0;
 }
