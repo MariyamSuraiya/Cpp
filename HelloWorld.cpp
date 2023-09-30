@@ -18,7 +18,7 @@ int main()
     std::cout << "I like pizza!" << std::endl;
     std::cout << "Do you??";
     std::cout << "I love it so much!!" << '\n';
-    std::cout << "Now tell me do you like it??";
+    std::cout << "Now tell me do you like it??" << '\n';
 
     int x; // Here is an declaration
 
@@ -48,7 +48,7 @@ int main()
     std::cout << "<";
     std::cout << Month;
     std::cout << "<";
-    std::cout << Days;
+    std::cout << Days << '\n';
 
     std::cout << "Decimal" << '\n';
 
@@ -56,11 +56,51 @@ int main()
     If I wanna see decimal number in my output,,,then I've to give double before variable numbers...Like this....
     */
 
-    double price = 50.50;
+    double point = 50.50;
     double number = 7.8;
 
-    std::cout << price << '\n';
+    std::cout << point << '\n';
     std::cout << number << '\n';
+
+    // Single Character
+
+    char student = 'K';
+    char accademy = 'M';
+    char dollarSign = '$';
+    char sign = '@';
+    char asign = '%';
+
+    std::cout
+        << student << '\n';
+    std::cout << accademy << '\n';
+    std::cout << dollarSign << '\n';
+    std::cout << sign << '\n';
+    std::cout << asign << '\n';
+
+    // char can  store only a single character or signs
+
+    // boolean have 2 stage (True or False)
+
+    bool army = false;
+    bool people = true;
+    bool doctor = false;
+
+    std::cout << army << '\n';
+    std::cout << people << '\n';
+    std::cout << doctor << '\n';
+
+    // String (objects that represents a sequence of text)
+
+    std::string subjects = "Physics";
+    std::string chapter = "Organic Chamistry chapter:4";
+    std::string signs = "$#%";
+
+    std::cout << signs << '\n';
+    std::cout << subjects << '\n';
+    std::cout << chapter << '\n';
+    std::cout << "Very tough " << chapter << '/n';
+
+    // string can give output more than one signs...And string can make a sentence
 
     return 0;
 }
